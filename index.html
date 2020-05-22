@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+   
+    <title>JJ's Code Quiz</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <div class="startBlock">
+    <h1>JJ's Code Quiz</h1>
+    <p>Click the button to begin...</p>
+    <div>
+        <button class="start">Start!</button>
+    </div>
+    </div>
+
+    <div class="questionBlock hide">
+        <h5>Timer: <span id="timeLeft"></span></h5>
+        <h3 class="questionTitle">Question: </h3>
+        <ul class="questionList">
+            <li id="o1"></li><button id="a1">A</button>
+            <li id="o2"></li><button id="a2">B</button>
+            <li id="o3"></li><button id="a3">C</button>
+            <li id="o4"></li><button id="a4">D</button>
+
+        </ul>
+    </div>
+
+    <div class="winnerBlock hide"> 
+        <h1>WOW!!! YOU DID IT YOU WON!!! ENTER YOUR INITIALS TO FEEL SPECIAL!!</h1>
+        <input type="text">
+    </div>
+
+    <div class="loserBlock hide"> 
+        <h1>dang homie sad day for you why don't you head on home now...</h1>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
